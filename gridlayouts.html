@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            gap:10px;
+        }
+        .child1{
+            background-color:darkmagenta;
+        }
+        .child2{
+            grid-row: 2/4;
+            background-color: blue;
+        }
+        .child3{
+            grid-column: 2/4;
+            background-color: aquamarine;
+        }
+        .child4{
+            background-color: aquamarine;
+        }
+        .child5{
+            grid-row: 2/4;
+            grid-column: 2/5;
+            background-color: aquamarine;
+        }
+        .child6{
+            grid-row : 1/4;
+            background-color: wheat;
+        }
+        .child7{
+            grid-row: 1/4;
+            background-color: aquamarine;
+        }
+        .child8{
+            grid-row: 1/4;
+            background-color: aquamarine;
+        }
+
+
+        .container1{
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px 100px 100px ;
+            grid-template-rows: 100px 100px 100px;
+            gap:10px;
+        }
+        .child{
+            background-color: aquamarine;
+        }
+        .child100{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            background-color: aqua;
+        }
+        .child101{
+            grid-column: 3/5;
+            background-color: aqua;
+        }
+        .child102{
+            grid-column: 5/7;
+            background-color: aqua;
+        }
+        .child103{
+            grid-row-start:2;
+            grid-column: 3/7;
+            grid-column-start: 3;
+            grid-row: 2/4;
+            background-color:greenyellow;
+
+        }
+        .child104{
+            grid-column: 1/3;
+            background-color: aqua;
+        }
+        .child105{
+            grid-column: 1/3;
+            background-color: aqua;
+        }
+
+        .container2{
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            gap:10px;
+        }
+        .child106{
+            grid-row:1/4;
+            background-color: antiquewhite;
+        }
+        .child107{
+            grid-column: 2/4;
+            background-color: greenyellow;
+        }
+        .child108{
+            background-color: brown;
+        }
+        .child109,.child110,.child112,.child113{
+            background-color: brown;
+        }
+        .child111{
+            grid-column-start: 4;
+            grid-row:2/4 ;
+            background-color: blue;
+        }
+
+
+
+        
+    </style>
+</head>
+<body>
+    <h1>Layout-1</h1>
+    <div class="container">
+        <div class="child1">child1</div>
+        <div class="child2">child2</div>
+        <div class="child3">child3</div>
+        <div class="child4">child4</div>
+        <div class="child5">child5</div>
+        <div class="child6">child6</div>
+        <div class="child7">child7</div>
+        <div class="child8">child8</div>
+        
+        
+
+       
+
+    </div><br>
+    <h1>Layout-2</h1>
+    <div class="container1">
+        <div class="child100">child100</div>
+        <div class="child101">child101</div>
+        <div class="child102">child102</div>
+        <div class="child103">child103</div>
+        <div class="child104">child104</div>
+        <div class="child105">child105</div>
+    </div>
+    <br>
+    <h1>Layout-3</h1>
+    <div class="container2">
+        <div class="child106">child106</div>
+        <div class="child107">child107</div>
+        <div class="child108">child108</div>
+        <div class="child109">child109</div>
+        <div class="child110">child110</div>
+        <div class="child111">child111</div>
+        <div class="child112">child112</div>
+        <div class="child113">child113</div>
+       
+
+    </div>
+
+
+
+  
+
+</body>
+</html>
